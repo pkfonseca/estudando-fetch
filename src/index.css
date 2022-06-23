@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+  text-align: center;
+}
+h2{
+  margin-top: 10px;
+}
+input{
+padding: 10px;
+border: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+input:focus{
+  outline: none;
+  border: 1px solid rgba(127, 255, 212, 0.603);
+}
+
+.btn-pesquisa{
+  padding: 10px;
+  margin: 0px 0px 0px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.158);
+  width: 200px;
+  border-radius: 3px;
+  background-color: rgba(127, 255, 212, 0.24);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+.btn-pesquisa:hover{
+  transition: 150ms;
+  padding: 10px;
+  margin: 0px 0px 0px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.158);
+  width: 200px;
+  border-radius: 3px;
+  /* background-color: ; */
+  background-image: linear-gradient(to right, rgba(245, 245, 245, 0.822), rgba(127, 255, 212, 0.603));
+  cursor: pointer;
+  font-size: 16px;
+}
+
+table{
+  border: 1px solid rgba(0, 0, 0, 0.158);
+  border-collapse: collapse;
+  table-layout: initial;
+  width: 100%;
+}
+th{
+  background-color: aquamarine;
+  text-align: center;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid rgba(82, 82, 82, 0.158);
+
+}
+
+.masculino{
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(127, 255, 212, 0.24);
+  border: 1px solid rgba(82, 82, 82, 0.158);
+
+}
+
+
+
+.feminino{
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(236, 102, 207, 0.24);
+  border: 1px solid rgba(82, 82, 82, 0.158);
+
+}
+
+td button{
+  border-radius: 360px;
+  padding: 15px;
+  font-size: 1rem;
+  border: none;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+td button:hover{
+  transition: 150ms;
+  background-image: linear-gradient(to right, rgba(245, 245, 245, 0.822), rgba(127, 255, 212, 0.603));
+  cursor: pointer;
+  font-size: 16px;
+}
